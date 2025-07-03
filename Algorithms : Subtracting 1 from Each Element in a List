@@ -1,0 +1,14 @@
+2. Subtracting 1 from Each Element in a List 
+
+Problem: Given a list 1st with elements [2, 33,222, 14, 25], you want to subtract 1 
+from each element in the list. 
+
+Solution: You can achieve this by using a list comprehension to create a new 
+list with the modified elements. Here's the solution in Python: 
+python 
+
+lst = [2, 33, 222, 14, 25] 
+result= [x - 1 for x in lst] 
+
+The code creates a new list called result where each element in 1st is reduced 
+by 1. The resulting result list will be [l, 32,221, 13, 24]. 
